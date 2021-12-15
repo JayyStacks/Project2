@@ -2,5 +2,12 @@
     {"Name": "James Harden","Position": "PG","Height": "6-5","Weight": "220","BirthDate": "August 26, 1989","College":"Arizona State"},
     {"Name": "Kevin Druant","Position": "SF","Height": "6-10","Weight": "240","BirthDate": "September 29, 1988","College":"Texas"},
     {"Name": "Kyrie Irving","Position": "PG","Height": "6-2","Weight": "195","BirthDate": "March 26, 1989","College":"Duke"},
-    {"Name": "LaMarcus Aldridge","Position": "PF","Height": "6-10","Weight": "250","BirthDate": "July 19, 1985","College":"Texas"}
+    {"Name": "LaMarcus Aldridge","Position": "PF","Height": "6-10","Weight": "250","BirthDate": "July 19, 1985","College":"Texas"},
+    {"Name": "Joe Harris","Position": "SF","Height": "6-6","Weight": "220","BirthDate": "September 6, 1991","College":"Louisiana Tech"},
+    {"Name": "Paul Millsap","Position": "PF","Height": "6-7","Weight": "257","BirthDate": "February 10, 1985","College":"Oklahoma"},
+    {"Name": "James Johnson Griffin","Position": "PF","Height": "6-7","Weight": "240","BirthDate": "February 20, 1987","College":"Wake Forest"},
+    {"Name": "Cameron Thomas","Position": "SG","Height": "6-4","Weight": "210","BirthDate": "October 13, 2001","College":"Lsu"},
+    {"Name": "Jevon Carter","Position": "PG","Height": "6-1","Weight": "200","BirthDate": "September 14, 1995","College":"West Virginia"},
+    {"Name": "Patty Mills","Position": "PG","Height": "6-1","Weight": "180","BirthDate": "August 11, 1988","College":"Saint Mary's"},
+    {"Name": "David Duke","Position": "PG","Height": "6-5","Weight": "205","BirthDate": "October 13, 1999","College":"Providence"}
 ]
