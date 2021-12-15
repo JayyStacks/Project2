@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="project2.css">
+        <script src = "project2.js" ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+    <h1>Sports</h1>
+
+    <table id = "player">
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Height</th>
+            <th>Weight</th>
+            <th>Birthdate</th>
+            <th>College</th>
+
+            <tr>
+                <td>First Last</td>
+                <td>Foward</td>
+                <td>6'3</td>
+                <td>217 lbs</td>
+                <td>10/12/2000</td>
+                <td>State Uni</td>
+            </tr>
+    
+            <tr>
+                <td>Test name </td>
+                <td>Center</td>
+                <td>6'1</td>
+                <td>220 lbs</td>
+                <td>01/01/2000</td>
+                <td>Humber College</td>
+            </tr>
+
+        </tr>
+    </table>
+    <br><br>
+    <input type="text" id="playerInput" onkeyup="playerFinder()" placeholder="Search for Player.." title="Type in a Player">
+    
+    <script>
+        $(document).ready(function () {
+  
+        // FETCHING DATA FROM JSON FILE
+        $.getJSON("players.json", 
+                function (data) {
+            var player = '';
+
+            // ITERATING THROUGH OBJECTS
+            $.each(data, function (key, value) {
+
+                //CONSTRUCTION OF ROWS HAVING
+                // DATA FROM JSON OBJECT
+                player += '<tr>';
+                    
+                player += '<td>' + 
+                    value.Name + '</td>';
+
+                player += '<td>' + 
+                    value.Position + '</td>';
+
+                playert += '<td>' + 
+                    value.Height + '</td>';
+
+                player += '<td>' + 
+                    value.Weight + '</td>';
+                
+                player += '<td>' + 
+                    value.Birthdate + '</td>';
+
+                player += '<td>' + 
+                    value.College + '</td>';
+
+                student += '</tr>';
+            });
+                
+            //INSERTING ROWS INTO TABLE 
+            $("#player").append(player);
+        });
+        });
+    </script>  
+</html>
